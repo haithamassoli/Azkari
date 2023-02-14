@@ -2,7 +2,7 @@
 
 <p align="center">
 
-      ![alt text](https://github.com/haithamassoli/Azkari/blob/main/logo.jpg?raw=true)
+      ![alt text](https://github.com/haithamassoli/Azkari/blob/main/images/logo.jpg?raw=true)
  </p>
 
 <p>
@@ -31,7 +31,6 @@ Go to File -> select -> preference -> settings
 - Search for "Azkari" then set your own list:
 
       ![alt text](https://github.com/haithamassoli/Azkari/blob/main/images/preview.png?raw=true)
-
 
 
 ## Contributing 🧑‍💻
