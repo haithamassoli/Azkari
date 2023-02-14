@@ -3,7 +3,7 @@
   "displayName": "Azkari",
   "description": "Azkari is a VS Code extension that reminds you of azkar (reminders) at regular intervals.",
   "version": "1.0.0",
-  "icon": "images/icon.png",
+  "icon": "images/logo.jpg",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/haithamassoli/Azkari.git"
@@ -38,7 +38,7 @@
         "command": "azkari.getAzkari",
         "title": "Get Azkari",
         "category": "Azkari",
-        "icon": "images/azkari.png"
+        "icon": "images/logo.jpg"
       }
     ],
     "configuration": {
