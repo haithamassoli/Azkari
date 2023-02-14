@@ -1,0 +1,105 @@
+{
+  "name": "azkari",
+  "displayName": "Azkari",
+  "description": "Azkari is a VS Code extension that reminds you of azkar (reminders) at regular intervals.",
+  "version": "1.0.0",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haithamassoli/Azkari.git"
+  },
+  "license": "MIT",
+  "publisher": "Haitham Assoli",
+  "author": "Haitham Assoli <haitham.b.assoli@gmail.com>",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Azkar",
+    "Reminders",
+    "quotes",
+    "motivation",
+    "quran",
+    "ayat",
+    "Islam",
+    "Muslim",
+    "Prayer",
+    "Dua",
+    "Hadith"
+  ],
+  "activationEvents": [
+    "*",
+    "onCommand:azkari.getAzkari"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "azkari.getAzkari",
+        "title": "Get Azkari",
+        "category": "Azkari",
+        "icon": "images/azkari.png"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Azkari",
+      "properties": {
+        "azkari.repeatedEveryMinute": {
+          "type": "number",
+          "default": "3",
+          "enum": [
+            "1",
+            "3",
+            "5",
+            "10",
+            "15",
+            "30"
+          ],
+          "description": "How often you want to be reminded of azkar, in minutes.",
+          "order": 1
+        },
+        "azkari.azkar": {
+          "type": "array",
+          "description": "Here, you may add additional azkar in any language, as well as write azkar about which you wish to be alerted.",
+          "default": [
+            "اللهم صل على محمد وآل محمد",
+            "الحمد لله",
+            "الله أكبر",
+            "سبحان الله",
+            "لا إله إلا الله",
+            "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير",
+            "أستغفر الله",
+            "اللهم إني أعوذ بك من الهم والحزن، والعجز والكسل، والجبن والبخل، وغلبة الدين وقهر الرجال",
+            "سبحان الله وبحمده، سبحان الله العظيم",
+            "لا حول ولا قوة إلا بالله العلي العظيم",
+            "اللهم إني أسألك العفو والعافية في الدنيا والآخرة",
+            "لا إله إلا انت سبحانك إني كنت من الظالمين"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "minItems": 1,
+          "order": 2
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "yarn run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.75.0",
+    "@types/glob": "^8.0.1",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "eslint": "^8.33.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.4",
+    "@vscode/test-electron": "^2.2.2"
+  }
+}
