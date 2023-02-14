@@ -9,7 +9,7 @@
     "url": "git+https://github.com/haithamassoli/Azkari.git"
   },
   "license": "MIT",
-  "publisher": "Haitham Assoli",
+  "publisher": "HaithamAssoli",
   "author": "Haitham Assoli <haitham.b.assoli@gmail.com>",
   "engines": {
     "vscode": "^1.75.0"
