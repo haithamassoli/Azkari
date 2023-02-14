@@ -30,7 +30,7 @@ Go to File -> select -> preference -> settings
 
 - Search for "Azkari" then set your own list:
 
-      ![alt text](https://github.com/haithamassoli/Azkari/blob/main/images/preview.png?raw=true)
+      ![alt text](https://raw.githubusercontent.com/haithamassoli/Azkari/main/images/logo.jpg)
 
 
 ## Contributing 🧑‍💻
