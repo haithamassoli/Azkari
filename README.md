@@ -1,9 +1,6 @@
 # Azkari  📝  
 
-<p align="center">
-
-      ![alt text](https://github.com/haithamassoli/Azkari/blob/main/images/logo.jpg?raw=true)
- </p>
+      ![alt text](https://raw.githubusercontent.com/haithamassoli/Azkari/main/images/logo.jpg)
 
 <p>
 Get notified to do your Azkar (Dua) every time you want. 🕓
@@ -30,7 +27,7 @@ Go to File -> select -> preference -> settings
 
 - Search for "Azkari" then set your own list:
 
-      ![alt text](https://raw.githubusercontent.com/haithamassoli/Azkari/main/images/logo.jpg)
+      ![alt text](https://raw.githubusercontent.com/haithamassoli/Azkari/main/images/preview.png)
 
 
 ## Contributing 🧑‍💻
