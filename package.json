@@ -66,7 +66,7 @@
           "type": "array",
           "description": "Here, you may add additional azkar in any language, as well as write azkar about which you wish to be alerted.",
           "default": [
-            "اللهم صل على محمد وآل محمد",
+            "اللهم صل على محمد وعلى آل محمد",
             "الحمد لله",
             "الله أكبر",
             "سبحان الله",
