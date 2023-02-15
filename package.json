@@ -31,8 +31,7 @@
     "Hadith"
   ],
   "activationEvents": [
-    "*",
-    "onCommand:azkari.getAzkari"
+    "*"
   ],
   "main": "./extension.js",
   "contributes": {
