@@ -1,6 +1,6 @@
 # Azkari  📝  
 
-![alt text](https://raw.githubusercontent.com/haithamassoli/Azkari/main/images/logo.jpg)
+![alt text](https://raw.githubusercontent.com/haithamassoli/Azkari/main/images/logo.png)
 
 <p>
 Get notified to do your Azkar (Dua) every time you want. 🕓
