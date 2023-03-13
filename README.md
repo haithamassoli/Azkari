@@ -11,6 +11,9 @@ You can set your own timer and your own list of Azkar in any language!. 🙌
 <p>
 Get a verse from the Dua during your coding session 💻 stay connected with Allah. 🤍🕋
 </p>
+<p>
+Remove notification automatically after 5 seconds. 🚫
+</p>
 
 ## How to configure notification timer
 
@@ -49,4 +52,4 @@ Contributions are always welcome!
 * [Personal email ](haitham.b.assoli.com)
 
 
-Enjoy 🖤🤍
+Enjoy! 🤍🕋
