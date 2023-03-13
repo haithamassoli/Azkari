@@ -19,7 +19,7 @@ function activate() {
       },
       async (progress) => {
         progress.report({ increment: 0 });
-        await new Promise((resolve) => setTimeout(resolve, convertMinuteToMs));
+        await new Promise((resolve) => setTimeout(resolve, 7000));
         progress.report({ increment: 100, message: "Done!" });
       }
     );

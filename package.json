@@ -19,6 +19,7 @@
   ],
   "keywords": [
     "Azkar",
+    "Athkar",
     "Reminders",
     "quotes",
     "motivation",
@@ -65,7 +66,7 @@
           "type": "array",
           "description": "Here, you may add additional azkar in any language, as well as write azkar about which you wish to be alerted.",
           "default": [
-            "اللهم صل على محمد وعلى آل محمد",
+            "صلى الله عليه وسلم",
             "الحمد لله",
             "الله أكبر",
             "سبحان الله",
