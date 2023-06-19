@@ -2,7 +2,7 @@
   "name": "azkari",
   "displayName": "Azkari",
   "description": "Azkari is a VS Code extension that reminds you of azkar (reminders) at regular intervals.",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "icon": "images/logo.png",
   "repository": {
     "type": "git",
@@ -36,6 +36,16 @@
   ],
   "main": "./extension.js",
   "contributes": {
+    "commands": [
+      {
+        "command": "extension.toggleSide",
+        "title": "Azkari: Toggle StatusBar Side"
+      },
+      {
+        "command": "extension.toggleLanguage",
+        "title": "Azkari: Toggle Language"
+      }
+    ],
     "configuration": {
       "type": "object",
       "title": "Azkari",
@@ -65,10 +75,8 @@
             "لا إله إلا الله",
             "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير",
             "أستغفر الله",
-            "اللهم إني أعوذ بك من الهم والحزن، والعجز والكسل، والجبن والبخل، وغلبة الدين وقهر الرجال",
             "سبحان الله وبحمده، سبحان الله العظيم",
-            "لا حول ولا قوة إلا بالله العلي العظيم",
-            "اللهم إني أسألك العفو والعافية في الدنيا والآخرة",
+            "لا حول ولا قوة إلا بالله",
             "لا إله إلا انت سبحانك إني كنت من الظالمين"
           ],
           "items": {
