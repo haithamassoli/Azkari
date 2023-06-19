@@ -1,16 +1,17 @@
 const vscode = require("vscode");
 
 function activate() {
-  let repeatedEveryMinute = vscode.workspace
+  const repeatedEveryMinute = vscode.workspace
     .getConfiguration("azkari")
     .get("repeatedEveryMinute");
 
-  let convertMinuteToMs = repeatedEveryMinute * 60000;
+  const convertMinuteToMs = repeatedEveryMinute * 60000;
+  const autoRemove = 6500;
 
   setInterval(function () {
     const azkar = vscode.workspace.getConfiguration("azkari").get("azkar");
-    let azkarIndex = Math.floor(Math.random() * azkar.length);
-    let azkarText = azkar[azkarIndex];
+    const azkarIndex = Math.floor(Math.random() * azkar.length);
+    const azkarText = azkar[azkarIndex];
     vscode.window.withProgress(
       {
         location: vscode.ProgressLocation.Notification,
@@ -19,7 +20,7 @@ function activate() {
       },
       async (progress) => {
         progress.report({ increment: 0 });
-        await new Promise((resolve) => setTimeout(resolve, convertMinuteToMs));
+        await new Promise((resolve) => setTimeout(resolve, autoRemove));
         progress.report({ increment: 100, message: "Done!" });
       }
     );

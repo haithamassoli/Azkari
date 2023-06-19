@@ -18,32 +18,24 @@
     "Other"
   ],
   "keywords": [
-    "Azkar",
-    "Athkar",
+    "azkar",
+    "athkar",
     "Reminders",
     "quotes",
     "motivation",
     "quran",
     "ayat",
-    "Islam",
-    "Muslim",
-    "Prayer",
-    "Dua",
-    "Hadith"
+    "islam",
+    "muslim",
+    "prayer",
+    "dua",
+    "hadith"
   ],
   "activationEvents": [
     "onStartupFinished"
   ],
   "main": "./extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "azkari.getAzkari",
-        "title": "Get Azkari",
-        "category": "Azkari",
-        "icon": "images/logo.png"
-      }
-    ],
     "configuration": {
       "type": "object",
       "title": "Azkari",

@@ -12,7 +12,10 @@ You can set your own timer and your own list of Azkar in any language!. 🙌
 Get a verse from the Dua during your coding session 💻 stay connected with Allah. 🤍🕋
 </p>
 <p>
-Remove notification automatically after 5 seconds. 🚫
+To Remove the notification, Press the "Ctrl + Shift + A". 🚫
+</p>
+<p>
+Remove notification automatically after 6 seconds. 🚫
 </p>
 
 ## How to configure notification timer
